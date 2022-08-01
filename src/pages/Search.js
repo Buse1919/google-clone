@@ -38,9 +38,9 @@ function Search({ hideButtons = false }) {
       {!hideButtons ? (
         <div className="search-buttons">
           <Button type="submit" onClick={search} variant="outlined">
-            Google Search
+            Google Ara
           </Button>
-          <Button variant="outlined">I'm Feeling Lucky</Button>
+          <Button variant="outlined">Kendimi Şanslı Hissediyorum</Button>
         </div>
       ) : (
         <div className="search-buttons">
@@ -50,10 +50,10 @@ function Search({ hideButtons = false }) {
             onClick={search}
             variant="outlined"
           >
-            Google Search
+            Google Ara
           </Button>
           <Button className="search-buttonsHidden" variant="outlined">
-            I'm Feeling Lucky
+          Kendimi Şanslı Hissediyorum
           </Button>
         </div>
       )}
