@@ -14,7 +14,7 @@ function Home() {
           <Link to="/store">Store</Link>
         </div>
         <div className="home-headerRight">
-          <a href="https://gmaiil-clone-v1.web.app/">Gmail</a>
+        <Link to="/gmail">Gmail</Link>
 
           <Link to="/images">Images</Link>
           <AppsIcon />
