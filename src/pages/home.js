@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import AppsIcon from "@material-ui/icons/Apps";
 import { Avatar } from "@material-ui/core";
 import Search from "./Search";
+import Footer from "./Footer";
 
 function Home() {
   return (
@@ -29,6 +30,8 @@ function Home() {
         />
         <div className="home-inputContainer">
           <Search />
+        
+          
         </div>
       </div>
     </div>
