@@ -3,10 +3,12 @@ import "./App.css";
 import Home from "./pages/Home";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import SearchPage from "./pages/SearchPage";
-
+import Footer from "./pages/Footer";
+import { Button } from 'reactstrap';
 function App() {
   return (
-    <div className="app">
+    <div className="app" >
+
       <Router>
         <Switch>
           <Route path="/search">
@@ -17,6 +19,7 @@ function App() {
           </Route>
         </Switch>
       </Router>
+      <Footer />
     </div>
   );
 }

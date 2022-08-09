@@ -14,11 +14,8 @@ import MoreVertIcon from "@material-ui/icons/MoreVert";
 import ArrowDropDownIcon from "@material-ui/icons/ArrowDropDown";
 
 function SearchPage() {
-  const [{ term /* = "tesla" */ }, dispatch] = useStateValue();
-  const { data } = useGoogleSearch(term); // Live API CALL
-
-  //Mock API CALL
-  // const data = Response;
+  const [{ term  }, dispatch] = useStateValue();
+  const { data } = useGoogleSearch(term); 
 
   console.log(data);
 
